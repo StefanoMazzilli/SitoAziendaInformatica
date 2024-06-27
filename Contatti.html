@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contatti</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    </head>
+    <body>
+        <!--HEADER-->
+        <nav class="navbar navbar-expand-md bg-body-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-4" href="#">
+                    <img src="https://placehold.co/600x400/orange/white?text=Logo" alt="Logo" width="60" height="48">
+                </a>
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ChiSiamo.html">Chi Siamo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Servizi.html">Servizi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--CONTENUTO PRINCIPALE-->
+        <div class="container text-center">
+            <div class="row my-3">
+                <div class="col-12">
+                    <h1><strong>COMPILA IL MODULO PER ESSERE RICONTATTATO DAL NOSTRO STAFF</strong></h1>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-4 my-4">
+                    <!--FORM-->
+                    <form class="row border border-3 m-2" id="contatti">
+                        <div class="col-12 col-md-6 m-1">
+                            <label for="inputNome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="inputNome">
+                        </div>
+                        <div class="col-12 col-md-6 m-1">
+                            <label for="inputCognome" class="form-label">Cognome</label>
+                            <input type="text" class="form-control" id="inputCognome">
+                        </div>
+                        <div class="col-12 col-md-6 m-1">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                        <div class="col-12 col-md-6 m-1">
+                            <label for="inputTel" class="form-label">Telefono</label>
+                            <input type="tel" class="form-control" id="inputTel">
+                        </div>
+                        <div class="col-12 m-1">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Ho letto e accettato la privacy e policy
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12 m-1">
+                            <button type="submit" class="btn btn-primary">Invia</button>
+                        </div>
+                    </form>
+                </div> <!--fine form-->
+                <div class="col-12 col-md-4 my-4">
+                    <ul class="list-group">
+                        <li class="list-group-item">Indirizzo</li>
+                        <li class="list-group-item">Telefono</li>
+                        <li class="list-group-item">E-mail</li>
+                    </ul>
+                </div> <!--fine contatti-->
+                <div class="col-12 col-md-4 my-4">
+                    <!--iframe mappa!!--> MAPPA
+                </div> <!--fine mappa-->
+            </div>
+        </div>
+        <!--FOOTER-->
+        <footer class="p-3 mt-2 bg-secondary text-light">
+            <div class="row">
+                <div class="col-12 col-sm-4 pb-1 mb-1 border-bottom border-2">
+                    <section>Azienda</section>
+                    <section>via Mario Rossi, 2</section>
+                    <section>p. IVA</section>
+                </div>
+                <div class="col-12 col-sm-4 pb-1 mb-1 border-bottom border-2">
+                    <section>+39 0123456789</section>
+                    <section>azienda@gmail.com</section>
+                    <section>fb: Azienda</section>
+                </div>
+                <div class="col-12 col-sm-4 pb-1 mb-1 border-bottom border-2">
+                    <section><a href="Home.html">Home</a></section>
+                    <section><a href="ChiSiamo.html">Chi Siamo</a></section>
+                    <section><a href="Servizi.html">Servizi</a></section>
+                    <section><a href="#">Contatti</a></section>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/bootstrap.bundle.js"></script>
+    </body>
+</html>
